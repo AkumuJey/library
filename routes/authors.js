@@ -14,3 +14,5 @@ router.get('/new', (req, res) => {
 router.post('/', (req, res) => {
     res.send('Create')
 })
+
+module.exports = router
